@@ -1,0 +1,35 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bytz_bg.qm</file>
+        <file alias="ca">locale/bytz_ca.qm</file>
+        <file alias="cs">locale/bytz_cs.qm</file>
+        <file alias="da">locale/bytz_da.qm</file>
+        <file alias="de">locale/bytz_de.qm</file>
+        <file alias="en">locale/bytz_en.qm</file>
+        <file alias="en_US">locale/bytz_en_US.qm</file>
+        <file alias="es">locale/bytz_es.qm</file>
+        <file alias="es_ES">locale/bytz_es_ES.qm</file>
+        <file alias="fi">locale/bytz_fi.qm</file>
+        <file alias="fr_FR">locale/bytz_fr_FR.qm</file>
+        <file alias="hi_IN">locale/bytz_hi_IN.qm</file>
+        <file alias="hr">locale/bytz_hr.qm</file>
+        <file alias="hr_HR">locale/bytz_hr_HR.qm</file>
+        <file alias="it">locale/bytz_it.qm</file>
+        <file alias="ja">locale/bytz_ja.qm</file>
+        <file alias="ko_KR">locale/bytz_ko_KR.qm</file>
+        <file alias="lt_LT">locale/bytz_lt_LT.qm</file>
+        <file alias="nl">locale/bytz_nl.qm</file>
+        <file alias="pl">locale/bytz_pl.qm</file>
+        <file alias="pt">locale/bytz_pt.qm</file>
+        <file alias="pt_BR">locale/bytz_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bytz_ro_RO.qm</file>
+        <file alias="ru">locale/bytz_ru.qm</file>
+        <file alias="sk">locale/bytz_sk.qm</file>
+        <file alias="sv">locale/bytz_sv.qm</file>
+        <file alias="tr">locale/bytz_tr.qm</file>
+        <file alias="uk">locale/bytz_uk.qm</file>
+        <file alias="vi">locale/bytz_vi.qm</file>
+        <file alias="zh_CN">locale/bytz_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bytz_zh_TW.qm</file>
+    </qresource>
+</RCC>

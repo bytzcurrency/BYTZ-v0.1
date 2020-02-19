@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BYTZ
+Comment=BYTZ P2P Cryptocurrency
+Comment[fr]=BYTZ, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BYTZ, eşten eşe kriptografik sanal para birimi
+Exec=bytz-qt %u
+Terminal=false
+Type=Application
+Icon=bytz128
+MimeType=x-scheme-handler/bytz;
+Categories=Office;Finance;

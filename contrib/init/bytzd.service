@@ -1,0 +1,26 @@
+[Unit]
+Description=BYTZ's distributed currency daemon
+After=network.target
+
+[Service]
+User=bytz
+Group=bytz
+
+Type=forking
+PIDFile=/var/lib/bytzd/bytzd.pid
+
+ExecStart=/usr/bin/bytzd -daemon -pid=/var/lib/bytzd/bytzd.pid \
+          -conf=/etc/bytz/bytz.conf -datadir=/var/lib/bytzd
+
+ExecStop=-/usr/bin/bytz-cli -conf=/etc/bytz/bytz.conf \
+         -datadir=/var/lib/bytzd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

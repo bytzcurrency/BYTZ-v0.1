@@ -1,0 +1,14 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bytz SNAP
+Comment=regtest
+GenericName=Bytz Digital Currency QT client regressbytz test network
+Exec=bytzcore.qt-regtest %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/bytz_regtest.png
+MimeType=x-scheme-handler/bytz;
+Categories=X-Finance;X-Games;
+Keywords=internet;bytz;xbytz;core;wallet;qt;regtest;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;

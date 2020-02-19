@@ -1,0 +1,14 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bytz Daemon SNAP
+Comment=main
+GenericName=Bytz Digital Currency Daemon Client main network
+Exec=bytzcore.daemon %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/bytzd.png
+MimeType=x-scheme-handler/bytz;
+Categories=X-Finance;X-Games;
+Keywords=internet;bytz;xbytz;core;wallet;daemon;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
