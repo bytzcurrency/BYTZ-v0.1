@@ -52,7 +52,7 @@ background-color:#f8f6f6;
 }
 
 QMenu::item {
-color:#333;
+color:#ff005b;
 }
 
 QMenu::item:selected {
@@ -61,7 +61,7 @@ color:#333;
 }
 
 QToolBar {
-background-color: qlineargradient(y1:0, y2: 1, stop: 0 #141212, stop: 0.75 #141212, stop: 0.99 #000000, stop: 1 #000000);
+background-color: qlineargradient(y1:0, y2: 1, stop: 0 #ff005b, stop: 0.25 #ff005b, stop: 0.50 #141212, stop: 1 #141212);
 border:0px solid #ff005b;
 padding:1;
 margin:0;
@@ -70,7 +70,7 @@ width: 70px;
 
 QToolBar > QToolButton {
 Alignment: left;
-background-color: #141212;
+background-color: transparent;
 selection-background-color:transparent;
 border:0.5px solid #888;
 border-left: 0px;
@@ -85,22 +85,22 @@ height: 60px;
 }
 
 QToolBar > QToolButton:checked {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #141212, stop: 1 #141212);
+background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #ff005b, stop: 1 #ff005b);
 color:#fff;
 }
 
 /* QToolBar > QToolButton:hover:!selected { */
 QToolBar > QToolButton:hover {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #141212, stop: 1 #141212);
+background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #ff005b, stop: 1 #ff005b);
 color:#fff;
 }
 
 QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-background-color: #141212; /* Do not highlight placeholder on hover */
+background-color: #ff005b; /* Do not highlight placeholder on hover */
 }
 
 QToolBar > QToolButton:pressed {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #888888, stop: 0.07 #888888, stop: 0.0701 #141212, stop: 1 #141212);
+background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ff005b, stop: 0.07 #ff005b, stop: 0.0701 #ff005b, stop: 1 #ff005b);
 color:#fff;
 }
 
