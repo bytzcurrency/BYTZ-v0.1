@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.bytz.io
-Vcs-Git: git://github.com/bytzcurrency/BYTZ.git
-Vcs-Browser: http://github.com/bytzcurrency/BYTZ
+Vcs-Git: git://github.com/SlateEntertainmentGroup/BYTZ.git
+Vcs-Browser: http://github.com/SlateEntertainmentGroup/BYTZ
 
 Package: bytzd
 Architecture: any
