@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/bytzcurrency/bytz-detached-sigs.git"
+- "url": "https://github.com/SlateEntertainmentGroup/bytz-detached-sigs.git"
   "dir": "signature"
 files:
 - "bytz-osx-unsigned.tar.gz"
