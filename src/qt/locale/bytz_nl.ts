@@ -1452,7 +1452,7 @@ MultiSend: %1</translation>
 To Add: enter percentage to give and BYTZ address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere BYTZ adressen nadat het volwassen is. 
+        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere BYTZ adressen nadat het volwassen is.
 Toevoegen: voer het te geven percentage in en BYTZ adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
@@ -2588,11 +2588,11 @@ To change the percentage (no restart required):
 </source>
         <translation>Toon de huidige status van automatische zBYTZ-markering.
 
-Om de status te wijzigen (opnieuw opstarten vereist): 
+Om de status te wijzigen (opnieuw opstarten vereist):
 - enable: voeg 'enablezeromint = 1' toe aan bytz.conf
 - uitschakelen: voeg 'enablezeromint = 0' toe aan bytz.conf
 
-Om het percentage te wijzigen (geen herstart vereist): 
+Om het percentage te wijzigen (geen herstart vereist):
 - menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zBYTZ
 </translation>
     </message>
@@ -2891,7 +2891,7 @@ Om het percentage te wijzigen (geen herstart vereist):
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
 Wees alsjeblieft geduldig...</translation>
@@ -2948,10 +2948,10 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Zerocoin besteden.
-Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je 
+Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je
 hardware.
 Wees alsjeblieft geduldig...</translation>
     </message>
@@ -2972,7 +2972,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Teveel invoer (</translation>
     </message>
     <message>
-        <source>) needed. 
+        <source>) needed.
 Maximum allowed: </source>
         <translation>) vereist.
 Maximaal toegestaan:</translation>
@@ -6131,8 +6131,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zBYTZ wallet...</source>
-        <translation>Synchroniseren zBYTZ portemonnee...</translation>
+        <source>Syncing BYTZ wallet...</source>
+        <translation>Synchroniseren BYTZ portemonnee...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>

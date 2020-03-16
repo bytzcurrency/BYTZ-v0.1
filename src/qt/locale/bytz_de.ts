@@ -1627,7 +1627,7 @@ Bitte Adresse überprüfen und nochmals versuchen.</translation>
         <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
 Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
 Please be patient after clicking import.</source>
-        <translation>Verwenden Sie unten, um eine Adresse schnell zu importieren, indem Sie sie einlösen. Vergessen Sie nicht, eine Beschriftung hinzuzufügen, bevor Sie auf Importieren klicken! 
+        <translation>Verwenden Sie unten, um eine Adresse schnell zu importieren, indem Sie sie einlösen. Vergessen Sie nicht, eine Beschriftung hinzuzufügen, bevor Sie auf Importieren klicken!
 Beachten Sie, dass die Brieftasche die Blockchain erneut scannt, um Transaktionen zu finden, die die neue Adresse enthalten
 Bitte haben Sie etwas Geduld, nachdem Sie auf Importieren geklickt haben.</translation>
     </message>
@@ -2579,11 +2579,11 @@ To change the percentage (no restart required):
 </source>
         <translation>Zeigt den aktuellen Status der automatischen zBYTZ-Prägung an
 
-Um den Status zu ändern (Neustart erforderlich): 
+Um den Status zu ändern (Neustart erforderlich):
 - enable: füge 'enablezeromint = 1' zu bytz.conf hinzu
 - disable: füge 'enablezeromint = 0' zu bytz.conf hinzu
 
-Um den Prozentsatz zu ändern (kein Neustart erforderlich): 
+Um den Prozentsatz zu ändern (kein Neustart erforderlich):
 - Menü Einstellungen-&gt; Optionen-&gt; Prozentsatz der autom. zBYTZ
 </translation>
     </message>
@@ -2882,7 +2882,7 @@ Um den Prozentsatz zu ändern (kein Neustart erforderlich):
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Starten von ResetMintZerocoin: Erneutes Scannen der kompletten Blockchain. Das benötigt, je nach Hardware, bis zu 30 Minuten .
 Bitte haben Sie etwas Geduld...</translation>
@@ -2939,7 +2939,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Zerocoin ausgeben.
 Rechnerisch aufwändig. Kann je nach ausgewähltem Sicherheitsstufe und Ihrer Hardware mehrere Minuten benötigen
@@ -2962,7 +2962,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Zu viele Eingaben (</translation>
     </message>
     <message>
-        <source>) needed. 
+        <source>) needed.
 Maximum allowed: </source>
         <translation>) benötigt.
 Maximal erlaubt:</translation>
@@ -5571,7 +5571,7 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
     <message>
         <source> mints deleted
 </source>
-        <translation>Prägungen gelöscht 
+        <translation>Prägungen gelöscht
 </translation>
     </message>
     <message>
@@ -6121,8 +6121,8 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Synchronisiere Sporks....</translation>
     </message>
     <message>
-        <source>Syncing zBYTZ wallet...</source>
-        <translation>Synchronisiere zBYTZ Wallet... </translation>
+        <source>Syncing BYTZ wallet...</source>
+        <translation>Synchronisiere BYTZ Wallet... </translation>
     </message>
     <message>
         <source>The coin spend has been used</source>

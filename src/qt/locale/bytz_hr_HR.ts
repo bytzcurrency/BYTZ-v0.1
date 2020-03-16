@@ -2889,7 +2889,7 @@ Promjena postotka (nije potrebno ponovno pokretanje):
         <translation>sek. Upotrijebljene denominacije:</translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Pokretanje ResetMintZerocoin: ponovno skeniranje potpunog blockchain, to će trajati i do 30 minuta, ovisno o vašem hardveru.</translation>
     </message>
@@ -2945,7 +2945,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Potrošnja Zerocoina.
 Zahtjevan izračun, možda će trebati nekoliko minuta ovisno o odabranoj razini sigurnosti i vašem hardveru.
@@ -2968,7 +2968,7 @@ Budite strpljivi ...</translation>
         <translation>Previše unosa (</translation>
     </message>
     <message>
-        <source>) needed. 
+        <source>) needed.
 Maximum allowed: </source>
         <translation>) potrebno.
 Maksimalno dopušteno:</translation>
@@ -6131,8 +6131,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zBYTZ wallet...</source>
-        <translation>Sinkronizacija zBYTZ novčanika...</translation>
+        <source>Syncing BYTZ wallet...</source>
+        <translation>Sinkronizacija BYTZ novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>

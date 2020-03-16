@@ -3677,7 +3677,7 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="+29"/>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3749,7 +3749,7 @@ Please be patient...</source>
     <message>
         <location line="+11"/>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3777,7 +3777,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+0"/>
-        <source>) needed. 
+        <source>) needed.
 Maximum allowed: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -7808,7 +7808,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zBYTZ wallet...</source>
+        <source>Syncing BYTZ wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
