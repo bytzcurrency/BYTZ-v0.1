@@ -4,9 +4,7 @@
 
 #include "macdockiconhandler.h"
 
-#include <QImageWriter>
 #include <QMenu>
-#include <QBuffer>
 #include <QWidget>
 
 #undef slots
@@ -23,9 +21,9 @@ static MacDockIconHandler *s_instance = NULL;
 bool dockClickHandler(id self,SEL _cmd,...) {
     Q_UNUSED(self)
     Q_UNUSED(_cmd)
-    
+
     s_instance->handleDockIconClickEvent();
-    
+
     // Return NO (false) to suppress the default OS X actions
     return false;
 }
@@ -33,7 +31,7 @@ bool dockClickHandler(id self,SEL _cmd,...) {
 void setupDockClickHandler() {
     Class cls = objc_getClass("NSApplication");
     id appInst = objc_msgSend((id)cls, sel_registerName("sharedApplication"));
-    
+
     if (appInst != NULL) {
         id delegate = objc_msgSend(appInst, sel_registerName("delegate"));
         Class delClass = (Class)objc_msgSend(delegate,  sel_registerName("class"));
@@ -77,38 +75,6 @@ QMenu *MacDockIconHandler::dockMenu()
     return this->m_dockMenu;
 }
 
-void MacDockIconHandler::setIcon(const QIcon &icon)
-{
-    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    NSImage *image = nil;
-    if (icon.isNull())
-        image = [[NSImage imageNamed:@"NSApplicationIcon"] retain];
-    else {
-        // generate NSImage from QIcon and use this as dock icon.
-        QSize size = icon.actualSize(QSize(128, 128));
-        QPixmap pixmap = icon.pixmap(size);
-
-        // Write image into a R/W buffer from raw pixmap, then save the image.
-        QBuffer notificationBuffer;
-        if (!pixmap.isNull() && notificationBuffer.open(QIODevice::ReadWrite)) {
-            QImageWriter writer(&notificationBuffer, "PNG");
-            if (writer.write(pixmap.toImage())) {
-                NSData* macImgData = [NSData dataWithBytes:notificationBuffer.buffer().data()
-                                             length:notificationBuffer.buffer().size()];
-                image =  [[NSImage alloc] initWithData:macImgData];
-            }
-        }
-
-        if(!image) {
-            // if testnet image could not be created, load std. app icon
-            image = [[NSImage imageNamed:@"NSApplicationIcon"] retain];
-        }
-    }
-
-    [NSApp setApplicationIconImage:image];
-    [image release];
-    [pool release];
-}
 
 MacDockIconHandler *MacDockIconHandler::instance()
 {
