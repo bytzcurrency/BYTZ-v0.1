@@ -23,10 +23,8 @@ public:
     ~MacDockIconHandler();
 
     QMenu* dockMenu();
-    void setMainWindow(QMainWindow* window);
     static MacDockIconHandler* instance();
     static void cleanup();
-    void handleDockIconClickEvent();
 
 signals:
     void dockIconClicked();
@@ -36,7 +34,6 @@ private:
 
     QWidget* m_dummyWidget;
     QMenu* m_dockMenu;
-    QMainWindow* mainWindow;
 };
 
 #endif // BITCOIN_QT_MACDOCKICONHANDLER_H
