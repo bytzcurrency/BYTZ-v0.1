@@ -4,6 +4,8 @@ brew install https://github.com/tebelorg/Tump/releases/download/v1.0.0/openssl.r
 
 brew link openssl --force
 
+./configure --with-unsupported-ssl
+
 brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf python3 qt5 zmq libevent qrencode gmp
 
 brew install librsvg
