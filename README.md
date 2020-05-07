@@ -3,7 +3,7 @@ BYTZ Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/bytzcurrency/bytz.svg?branch=0.1.03)](https://travis-ci.org/bytzcurrency/bytz)
 
-https://bytz.io
+https://bytz.gg
 
 What is BYTZ?
 --------------
