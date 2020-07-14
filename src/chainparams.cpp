@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (       0,	uint256("00000feb03167c4a4fa9f2bafcaea0e9f7e5646330e13c69e7ffa2dce58ace44") ) // Genesis block       
+        (       0,	uint256("00000feb03167c4a4fa9f2bafcaea0e9f7e5646330e13c69e7ffa2dce58ace44") ) // Genesis block
         (       1,  uint256("000002f68dbbf1fcfacb8f0b4e64083efdd2f07a906728ee068d573ffa5bcb4e") ) // First mined block
         (      25,  uint256("0000016f6d9c834f269f07e624feb02ba725e3d954017549afde932c8f6d6dc7") ) // Zerocoin enabled
         (      60,  uint256("00000039aca457e0dd2287e0fd636f1998e6b2774a64e8c18fa853776ec309c8") ) // Zerocoin V2 enabled
@@ -76,7 +76,7 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-        (       0,	    uint256("0000065432f43b3efb23bd0f63fe33d00d02a5f36233fe1b982c08274d58ef12") ); // Genesis block 
+        (       0,	    uint256("0000065432f43b3efb23bd0f63fe33d00d02a5f36233fe1b982c08274d58ef12") ); // Genesis block
 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
@@ -159,7 +159,7 @@ public:
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
          * be spent as it did not originally exist in the database.
-         * 
+         *
          * python genesis.py -z "Investing.com 23/Apr/2018 Facebook Gets First Downgrade Since Data Scandal" -t 1524496461 -n 67453891 -b 0x1e0ffff0 -v 0
          *
          * CBlock(hash=00000ffd590b14, ver=1, hashPrevBlock=00000000000000, hashMerkleRoot=e0028e, nTime=1390095618, nBits=1e0ffff0, nNonce=28917698, vtx=1)
@@ -192,6 +192,10 @@ public:
         vSeeds.push_back(CDNSSeedData("slateseeder2.xhost.host", "main.slateseeder2.xhost.host"));     // Slate EU1 DNS Seeder
         vSeeds.push_back(CDNSSeedData("slateseeder3.xhost.host", "main.slateseeder3.xhost.host"));     // Slate ASIA1 (Singapore) DNS Seeder
         vSeeds.push_back(CDNSSeedData("slateseeder4.xhost.host", "main.slateseeder4.xhost.host"));     // Slate AUSTRALIA1 (Sydney) DNS Seeder
+        vSeeds.push_back(CDNSSeedData("204.92.235.50", "204.92.235.50")); //Backup Seeder 1
+        vSeeds.push_back(CDNSSeedData("204.92.235.51", "204.92.235.51")); //Backup Seeder 2
+        vSeeds.push_back(CDNSSeedData("204.92.235.52", "204.92.235.52")); //Backup Seeder 3
+        vSeeds.push_back(CDNSSeedData("204.92.235.53", "204.92.235.53")); //Backup Seeder 4
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 125);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);
@@ -216,7 +220,7 @@ public:
         strSporkKey = "04700e916c512d08e658a97c7e76fab398968e4a442415f51d3907aeaa705831792197a9904597445d72a3f99ab200e264a8e767a6a2f8b499ec1684831f95cbc1";
         strSporkKeyOld = "04700e916c512d08e658a97c7e76fab398968e4a442415f51d3907aeaa705831792197a9904597445d72a3f99ab200e264a8e767a6a2f8b499ec1684831f95cbc1";
         strObfuscationPoolDummyAddress = "sMGx5WVasXzj2HNxd6xczLgzaUrY1RpaHH";
-        nStartMasternodePayments = 1524496461; 
+        nStartMasternodePayments = 1524496461;
 
         /** Zerocoin */
         zerocoinModulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
